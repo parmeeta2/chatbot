@@ -1,0 +1,502 @@
+[
+    {
+      "tag": "projectile_motion",
+      "patterns": [
+        "What experiment can I conduct to study projectile motion?"
+      ],
+      "responses": [
+        "You can measure the trajectory of a projectile launched at various angles."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "simple_pendulum",
+      "patterns": [
+        "How can I investigate the properties of a simple pendulum?"
+      ],
+      "responses": [
+        "Measure the relationship between pendulum length and its period."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "harmonic_motion",
+      "patterns": [
+        "What experiment can demonstrate harmonic motion?"
+      ],
+      "responses": [
+        "Study the oscillations of a mass-spring system."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "conservation_of_momentum",
+      "patterns": [
+        "How can I explore conservation of momentum?"
+      ],
+      "responses": [
+        "Conduct experiments with elastic and inelastic collisions."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "electric_circuits",
+      "patterns": [
+        "What can I do to study electric circuits?"
+      ],
+      "responses": [
+        "Build circuits to explore Ohm’s Law and measure resistance."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "refraction_of_light",
+      "patterns": [
+        "How can I measure the refraction of light?"
+      ],
+      "responses": [
+        "Measure the angle of refraction in different mediums."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "thermal_conductivity",
+      "patterns": [
+        "What experiment can I conduct to compare thermal conductivity?"
+      ],
+      "responses": [
+        "Compare the thermal conductivity of various materials."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "capacitance",
+      "patterns": [
+        "How can I investigate capacitance?"
+      ],
+      "responses": [
+        "Measure how capacitance changes with different dielectric materials."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "friction",
+      "patterns": [
+        "What experiment can I do to measure friction?"
+      ],
+      "responses": [
+        "Measure the coefficient of friction between different surfaces."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "magnetic_fields",
+      "patterns": [
+        "How can I map magnetic fields?"
+      ],
+      "responses": [
+        "Use a magnet to map the magnetic field lines around it."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "wave_interference",
+      "patterns": [
+        "What can I do to study wave interference?"
+      ],
+      "responses": [
+        "Investigate interference patterns of sound or light waves."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "doppler_effect",
+      "patterns": [
+        "How can I explore the Doppler effect?"
+      ],
+      "responses": [
+        "Measure the change in frequency of sound from a moving source."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "solar_cell_efficiency",
+      "patterns": [
+        "What experiment can I conduct to test solar cell efficiency?"
+      ],
+      "responses": [
+        "Measure the efficiency of solar cells under varying light conditions."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "fluid_dynamics",
+      "patterns": [
+        "How can I study fluid dynamics?"
+      ],
+      "responses": [
+        "Measure the flow of water through pipes of different diameters."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "thermal_expansion",
+      "patterns": [
+        "What experiment can demonstrate thermal expansion?"
+      ],
+      "responses": [
+        "Measure how different materials expand when heated."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "radioactivity",
+      "patterns": [
+        "How can I measure radioactivity?"
+      ],
+      "responses": [
+        "Use a Geiger counter to measure the decay of a radioactive source."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "RLC_circuits",
+      "patterns": [
+        "What can I do with RLC circuits?"
+      ],
+      "responses": [
+        "Analyze the behavior of resistors, inductors, and capacitors in AC circuits."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "optical_lenses",
+      "patterns": [
+        "How can I investigate optical lenses?"
+      ],
+      "responses": [
+        "Measure the focal lengths of convex and concave lenses."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "sound_waves",
+      "patterns": [
+        "What experiment can I do with sound waves?"
+      ],
+      "responses": [
+        "Measure the speed of sound in air and other mediums."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "gas_laws",
+      "patterns": [
+        "How can I study gas laws?"
+      ],
+      "responses": [
+        "Explore Boyle’s Law and Charles’s Law using a gas syringe."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "projectile_motion_inclined_plane",
+      "patterns": [
+        "What can I do with projectile motion on an inclined plane?"
+      ],
+      "responses": [
+        "Analyze the motion of a ball rolling down an incline."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "electromagnetic_induction",
+      "patterns": [
+        "How can I investigate electromagnetic induction?"
+      ],
+      "responses": [
+        "Measure the induced EMF in a coil."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "thermodynamics",
+      "patterns": [
+        "What experiment can I conduct in thermodynamics?"
+      ],
+      "responses": [
+        "Explore heat transfer using different materials."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "torsion_pendulum",
+      "patterns": [
+        "How can I study torsion pendulums?"
+      ],
+      "responses": [
+        "Investigate the properties of torsion and oscillation."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "photoelectric_effect",
+      "patterns": [
+        "How can I measure the photoelectric effect?"
+      ],
+      "responses": [
+        "Measure the threshold frequency in a photoelectric experiment."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "lenz_law",
+      "patterns": [
+        "What can I do to explore Lenz’s Law?"
+      ],
+      "responses": [
+        "Investigate the direction of induced current in coils."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "density_of_liquids",
+      "patterns": [
+        "How can I measure the density of liquids?"
+      ],
+      "responses": [
+        "Use a hydrometer to measure the density of various liquids."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "kinematics_of_cart",
+      "patterns": [
+        "What experiment can I do with the kinematics of a cart?"
+      ],
+      "responses": [
+        "Use motion sensors to analyze cart acceleration."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "electric_field_mapping",
+      "patterns": [
+        "How can I map electric fields?"
+      ],
+      "responses": [
+        "Map the electric field of charged plates."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "resonance_air_columns",
+      "patterns": [
+        "What can I do to study resonance in air columns?"
+      ],
+      "responses": [
+        "Investigate resonance in open and closed tubes."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "buoyancy",
+      "patterns": [
+        "How can I measure buoyancy?"
+      ],
+      "responses": [
+        "Measure the buoyant force on submerged objects."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "hertzsprung_russell_diagram",
+      "patterns": [
+        "What can I do with the Hertzsprung-Russell diagram?"
+      ],
+      "responses": [
+        "Analyze star data to plot luminosity versus temperature."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "angular_momentum",
+      "patterns": [
+        "How can I study angular momentum?"
+      ],
+      "responses": [
+        "Investigate the conservation of angular momentum using a rotating platform."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "laser_diffraction",
+      "patterns": [
+        "What experiment can I do with laser diffraction?"
+      ],
+      "responses": [
+        "Study diffraction patterns created by a laser through slits."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "thermal_imaging",
+      "patterns": [
+        "How can I use thermal imaging in experiments?"
+      ],
+      "responses": [
+        "Use thermal cameras to measure heat distribution."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "balloon_rockets",
+      "patterns": [
+        "What can I do with balloon rockets?"
+      ],
+      "responses": [
+        "Investigate thrust and motion using balloon-powered rockets."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "surface_tension",
+      "patterns": [
+        "How can I measure surface tension?"
+      ],
+      "responses": [
+        "Measure the surface tension of water with various detergents."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "circular_motion",
+      "patterns": [
+        "What experiment can I conduct with circular motion?"
+      ],
+      "responses": [
+        "Analyze centripetal force using a rotating mass."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "sonic_rangefinder",
+      "patterns": [
+        "How can I use a sonic rangefinder?"
+      ],
+      "responses": [
+        "Measure distances using ultrasonic sensors."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "interference_water_waves",
+      "patterns": [
+        "What can I do to study interference of water waves?"
+      ],
+      "responses": [
+        "Study wave patterns produced by overlapping water waves."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "kinetic_and_potential_energy",
+      "patterns": [
+        "How can I measure kinetic and potential energy?"
+      ],
+      "responses": [
+        "Measure energy transformations on a roller coaster model."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "electrostatics",
+      "patterns": [
+        "What experiment can I conduct in electrostatics?"
+      ],
+      "responses": [
+        "Explore charging methods and measure forces between charged objects."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "photovoltaic_effect",
+      "patterns": [
+        "How can I study the photovoltaic effect?"
+      ],
+      "responses": [
+        "Investigate how light intensity affects solar panel output."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "wave_speed",
+      "patterns": [
+        "What can I do to measure wave speed?"
+      ],
+      "responses": [
+        "Measure wave speed in strings of different tensions."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "thermal_radiation",
+      "patterns": [
+        "How can I explore thermal radiation?"
+      ],
+      "responses": [
+        "Investigate the relationship between temperature and emitted radiation."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "vortex_formation",
+      "patterns": [
+        "What experiment can I conduct to study vortex formation?"
+      ],
+      "responses": [
+        "Investigate the conditions for vortex formation in fluids."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "pendulum_gravity",
+      "patterns": [
+        "How can I use a pendulum to measure gravity?"
+      ],
+      "responses": [
+        "Measure gravitational acceleration using a pendulum."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "geometric_optics",
+      "patterns": [
+        "What can I do with geometric optics?"
+      ],
+      "responses": [
+        "Analyze the properties of mirrors and lenses in image formation."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "friction_inclined_planes",
+      "patterns": [
+        "How can I study friction on inclined planes?"
+      ],
+      "responses": [
+        "Measure how incline affects frictional force."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "electric_motor",
+      "patterns": [
+        "What experiment can I conduct with an electric motor?"
+      ],
+      "responses": [
+        "Build a simple electric motor and analyze its efficiency."
+      ],
+      "context_set": ""
+    }
+  ]
