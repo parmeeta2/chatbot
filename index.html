@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Physics Chatbot in VR</title>
+<script src="https://aframe.io/releases/1.2.0/aframe.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<style>
+    #user-input-container {
+        position: absolute;
+        bottom: 20px;
+        left: 50%;
+        transform: translateX(-50%);
+        display: flex;
+        align-items: center;
+    }
+    #question-input {
+        width: 300px;
+        padding: 10px;
+        font-size: 16px;
+        border-radius: 5px;
+        border: 1px solid #ccc;
+    }
+    #ask-btn {
+        padding: 10px;
+        margin-left: 10px;
+        background-color: #00bfff;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 16px;
+    }
+</style>
+</head>
+<body>
+    <!-- VR Scene -->
+    <a-scene>
+        <!-- Display chatbot response -->
+        <a-entity id="response-box" geometry="primitive: plane; width: 3; height: 1"
+                  material="color: #f0f0f0"
+                  position="0 1 -3"
+                  text="value: Chatbot Response will appear here; color: black; align: center; wrapCount: 40; fontSize: 0.1;">
+        </a-entity>
+    </a-scene>
+
+    <!-- Input Box for User Question -->
+    <div id="user-input-container">
+        <input id="question-input" type="text" placeholder="Type your question here...">
+        <button id="ask-btn">Ask</button>
+    </div>
+
+    <script>
+        $(document).ready(function () {
+            // Handle click on ask button
+            $("#ask-btn").on("click", async function () {
+                const question = $("#question-input").val().trim();
+                
+                if (question === "") {
+                    alert("Please enter a question.");
+                    return;
+                }
+
+                // Disable the button while fetching
+                $("#ask-btn").text("Asking...").prop("disabled", true);
+
+                try {
+                    const response = await fetch("http://127.0.0.1:5000/ask", {
+                        method: "POST",
+                        headers: {
+                            "Content-Type": "application/json",
+                        },
+                        body: JSON.stringify({ question: question }),
+                    });
+                
+                    console.log("Response Status:", response.status); // Debug
+                    const data = await response.json();
+                    console.log("Response Data:", data); // Debug
+                
+                    if (response.ok) {
+                        const chatbotResponse = data.response || "No response received.";
+                        
+                        // Update the response box with the chatbot response
+                        document.querySelector("#response-box").setAttribute("text", "value: " + chatbotResponse);
+                    } else {
+                        alert(data.error || "Failed to get a valid response.");
+                    }
+                } catch (error) {
+                    console.error("Error fetching chatbot response:", error);
+                    alert("Failed to get a response. Please try again.");
+                }
+                
+                 finally {
+                    // Re-enable the button
+                    $("#ask-btn").text("Ask").prop("disabled", false);
+                    $("#question-input").val(""); // Clear the input box
+                }
+            });
+        });
+    </script>
+</body>
+</html>
